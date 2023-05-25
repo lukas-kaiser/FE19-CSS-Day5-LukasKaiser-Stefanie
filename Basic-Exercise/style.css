@@ -339,4 +339,10 @@
 .pictures .pic6 {
   grid-column: 3/4;
   grid-row: 2/3;
+}
+
+@media screen and (max-width: 1200px) {
+  .small-text {
+    color: red;
+  }
 }/*# sourceMappingURL=style.css.map */
