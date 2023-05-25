@@ -20,10 +20,29 @@
   border: 1px solid #526D82;
   width: 100%;
   height: 100%;
-  padding: 19px 154px;
+  padding: 20px 152px;
   background-color: #27374D;
 }
 .navbar .navlist .navsub .navlinks {
   color: #DDE6ED;
   text-decoration: none;
+}
+
+main {
+  border: 1px solid red;
+  height: 800px;
+  background-image: url("https://static.onecms.io/wp-content/uploads/sites/6/2018/06/gettyimages-821411266-2000.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+main h1 {
+  color: #526D82;
+  background-color: #27374D;
+  border-radius: 25%;
+  padding: 5%;
+  width: 103%;
+  margin-left: 50px;
+  font-size: 100px;
 }/*# sourceMappingURL=style.css.map */
