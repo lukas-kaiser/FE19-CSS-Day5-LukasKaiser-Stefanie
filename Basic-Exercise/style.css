@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.paper {
+  width: 300px;
+  height: auto;
+  border: 1px solid black;
+  margin: auto;
+  padding: 5px;
+}
+
+.second-section .top-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.second-section .middle-info {
+  display: flex;
+}
+.second-section .middle-info .left {
+  width: 70%;
+}
+.second-section .middle-info .right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.second-section .calories {
+  display: flex;
+}
+.second-section .calories .left {
+  width: 70%;
+}
+.second-section .calories .right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.second-section .caloriesfromfat {
+  display: flex;
+}
+.second-section .caloriesfromfat .left {
+  width: 70%;
+  padding-left: 15px;
+}
+.second-section .caloriesfromfat .right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.second-section .dailyvalue {
+  display: flex;
+  justify-content: flex-end;
+}
+.second-section .totalfat {
+  display: flex;
+}
+.second-section .totalfat .left {
+  width: 70%;
+}
+.second-section .totalfat .right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.second-section .saturatedfat {
+  display: flex;
+}
+.second-section .saturatedfat .left {
+  width: 70%;
+  padding-left: 15px;
+}
+.second-section .saturatedfat .right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.second-section .transfat {
+  padding-left: 15px;
+}
+.second-section .cholesterol {
+  display: flex;
+}
+.second-section .cholesterol .left {
+  width: 70%;
+}
+.second-section .cholesterol .right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.second-section .sodium {
+  display: flex;
+}
+.second-section .sodium .left {
+  width: 70%;
+}
+.second-section .sodium .right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.second-section .carbohydrate {
+  display: flex;
+}
+.second-section .carbohydrate .left {
+  width: 70%;
+}
+.second-section .carbohydrate .right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.second-section .dietaryfiber {
+  display: flex;
+}
+.second-section .dietaryfiber .left {
+  width: 70%;
+  padding-left: 15px;
+}
+.second-section .dietaryfiber .right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.second-section .sugars {
+  padding-left: 15px;
+}
+
+.third-section .vitamin-a {
+  display: flex;
+}
+.third-section .vitamin-a .left {
+  width: 70%;
+}
+.third-section .vitamin-a .right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.third-section .vitamin-c {
+  display: flex;
+}
+.third-section .vitamin-c .left {
+  width: 70%;
+}
+.third-section .vitamin-c .right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.third-section .calcium {
+  display: flex;
+}
+.third-section .calcium .left {
+  width: 70%;
+}
+.third-section .calcium .right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.third-section .iron {
+  display: flex;
+}
+.third-section .iron .left {
+  width: 70%;
+}
+.third-section .iron .right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.third-section .bottom-info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2%;
+}
+.third-section .bottom-info .left {
+  display: flex;
+  padding-left: 38%;
+}
+.third-section .bottom-info .right {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  padding-right: 13%;
+}
+.third-section .totalfat {
+  display: flex;
+  justify-content: space-between;
+}
+.third-section .totalfat .middle {
+  padding-left: 18%;
+}
+.third-section .totalfat .right {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-right: 16%;
+}
+.third-section .saturatedfat {
+  display: flex;
+  justify-content: space-between;
+}
+.third-section .saturatedfat .left {
+  padding-left: 10px;
+}
+.third-section .saturatedfat .middle {
+  padding-left: 7%;
+}
+.third-section .saturatedfat .right {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-right: 16%;
+}
+.third-section .cholesterol {
+  display: flex;
+  justify-content: space-between;
+}
+.third-section .cholesterol .middle {
+  padding-left: 14%;
+}
+.third-section .cholesterol .right {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding-right: 11%;
+}
+.third-section .sodium {
+  display: flex;
+  justify-content: space-between;
+}
+.third-section .sodium .middle {
+  padding-left: 21%;
+}
+.third-section .sodium .right {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  padding-right: 7%;
+}
+.third-section .carbohydrate {
+  display: flex;
+  justify-content: space-between;
+}
+.third-section .carbohydrate .right {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding-right: 14%;
+}
+.third-section .dietaryfiber {
+  display: flex;
+  justify-content: space-between;
+}
+.third-section .dietaryfiber .left {
+  padding-left: 10px;
+}
+.third-section .dietaryfiber .right {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding-right: 16%;
+}
+.third-section .last-line {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.black-stripe {
+  background-color: black;
+  height: 10px;
+}
+
+.black-stripe-small {
+  background-color: black;
+  height: 2px;
+}
+
+.black-stripe-medium {
+  background-color: black;
+  height: 5px;
+}
+
+.small-text {
+  font-size: 80%;
+}
+
+.dot {
+  font-size: 5%;
+  padding-top: 1.5%;
+}/*# sourceMappingURL=style.css.map */

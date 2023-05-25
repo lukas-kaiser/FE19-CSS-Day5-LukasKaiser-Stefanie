@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.paper{
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+}
+.second-section{
+    .top-info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .middle-info{
+        .left{
+            width: 70%;
+        }
+        .right{
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+        }
+        display: flex;
+        }   
+    .calories{
+        .left{
+            width: 70%;
+        }
+        .right{
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+        }
+        display: flex;
+    }    
+    .caloriesfromfat{
+        .left{
+            width: 70%;
+            padding-left: 15px;
+        }
+        .right{
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+        }
+        display: flex;
+    }  
+    .dailyvalue{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .totalfat{
+        .left{
+            width: 70%;
+        }
+        .right{
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+        }
+        display: flex;
+    }
+    .saturatedfat{
+        .left{
+            width: 70%;
+            padding-left: 15px;
+        }
+        .right{
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+        }
+        display: flex;
+        }
+        .transfat{
+            padding-left: 15px;
+        }
+        .cholesterol{
+            .left{
+                width: 70%;
+            }
+            .right{
+                width: 30%;
+                display: flex;
+                justify-content: space-between;
+            }
+            display: flex;
+        }
+        .sodium{
+            .left{
+                width: 70%;
+            }
+            .right{
+                width: 30%;
+                display: flex;
+                justify-content: space-between;
+            }
+            display: flex;
+        }
+        .carbohydrate{
+            .left{
+                width: 70%;
+            }
+            .right{
+                width: 30%;
+                display: flex;
+                justify-content: space-between;
+            }
+            display: flex;
+        }
+        .dietaryfiber{
+            display: flex;
+            .left{
+                width: 70%;
+                padding-left: 15px;
+            }
+            .right{
+                width: 30%;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        .sugars{
+            padding-left: 15px;
+        }
+    }
+.third-section{
+    .vitamin-a{
+        display: flex;
+        .left{
+            width: 70%;
+        }
+        .right{
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .vitamin-c{
+        display: flex;
+        .left{
+            width: 70%;
+        }
+        .right{
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .calcium{
+        display: flex;
+        .left{
+            width: 70%;;
+        }
+        .right{
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .iron{
+        display: flex;
+        .left{
+            width: 70%;
+        }
+        .right{
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .bottom-info{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2%;
+        .left{
+            display: flex;
+            padding-left: 38%; 
+        }
+        .right{
+            display: flex;
+            justify-content: space-between;
+            gap: 22px;
+            padding-right: 13%;
+        }
+    }
+    .totalfat{
+        display: flex;
+        justify-content: space-between;
+        .middle{
+            padding-left: 18%;
+        }
+        .right{
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            padding-right: 16%;
+        }
+    }
+    .saturatedfat{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            padding-left: 10px;
+        }
+        .middle{
+            padding-left: 7%;
+        }
+        .right{
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            padding-right: 16%;
+        }
+    }
+    .cholesterol{
+        display: flex;
+        justify-content: space-between;
+        .middle{
+            padding-left: 14%;
+        }
+        .right{
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            padding-right: 11%;
+        }
+    }
+    .sodium{
+        display: flex;
+        justify-content: space-between;
+        .middle{
+            padding-left: 21%;
+        }
+        .right{
+            display: flex;
+            justify-content: space-between;
+            gap: 5px;
+            padding-right: 7%; 
+        }
+    }
+    .carbohydrate{
+        display: flex;
+        justify-content: space-between;
+        .right{
+            display: flex;
+            justify-content: space-between;
+            gap: 24px;
+            padding-right: 14%;
+        }
+    }
+    .dietaryfiber{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            padding-left: 10px; 
+        }
+        .right{
+            display: flex;
+            justify-content: space-between;
+            gap: 24px;
+            padding-right: 16%;
+        }
+    }
+    .last-line{
+        display: flex;
+        justify-content: center;
+        gap: 2%;
+    }
+}
+.black-stripe{
+    background-color: black;
+    height: 10px;
+}
+.black-stripe-small{
+    background-color: black;
+    height: 2px;
+}
+.black-stripe-medium{
+    background-color: black;
+    height: 5px;
+}
+.small-text{
+    font-size: 80%;
+}
+.dot{
+    font-size: 5%;
+    padding-top: 1.5%;
+}
